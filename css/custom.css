@@ -949,7 +949,7 @@ div.modal-body > div.img-wrap {
     text-align:center;
 }
 #sub-membership-club > img {
-    width:100%;
+    width:100% !important;
 }
 .form-control {
     font-size:16px;
