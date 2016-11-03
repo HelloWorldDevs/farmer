@@ -101,7 +101,7 @@ section h2 {
     .device-md #primary-menu ul li > a {
         font-size:14px;
     }
-    .device-md #primary-menu ul lu > a {
+    .device-md #primary-menu ul > a {
         padding-left:7px;
         padding-right:7px;
     }
