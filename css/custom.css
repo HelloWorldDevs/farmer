@@ -97,9 +97,13 @@ section h2 {
     padding-right:0;
     margin-right:0;
 }
-@media (max-width:1030px) {
+@media (max-width:1036px) {
     .device-md #primary-menu ul li > a {
         font-size:14px;
+    }
+    .device-md #primary-menu ul lu > a {
+        padding-left:7px;
+        padding-right:7px;
     }
 }
 .device-sm #logo img, .device-xs #logo img, .device-xxs #logo img {
@@ -842,6 +846,7 @@ a.social-icon.si-rounded {
     color:#FFF;
     font-size:14px;
     font-weight:300;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -942,4 +947,10 @@ h4.modal-title {
 
 div.modal-body > div.img-wrap {
     text-align:center;
+}
+#sub-membership-club > img {
+    width:100%;
+}
+.form-control {
+    font-size:16px;
 }
