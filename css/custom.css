@@ -988,3 +988,6 @@ body.stretched #header.full-header.sticky-header .container {
 #patient-reviews .owl-carousel .owl-dots, .owl-carousel .owl-nav {
     display:none;
 }
+.device-lg #membership-club > div > div.col-lg-6.center {
+    margin-left:-7%;
+}
