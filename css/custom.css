@@ -627,7 +627,7 @@ section h2 {
     color: #3A3937;
     line-height: 22px;
 }
-.device-sm #membership-club, .device-xs #membership-club, .device-xxs #membership-club {
+.device-md #membership-club, .device-sm #membership-club, .device-xs #membership-club, .device-xxs #membership-club {
     background:none;
 }
 .device-xs #membership-club h2 {
