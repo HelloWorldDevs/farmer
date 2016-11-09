@@ -71,11 +71,11 @@ section h2 {
 }
 
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-    height:85px;
+    height:95px;
 }
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
-    padding-top:32px;
-    padding-bottom:31px;
+    padding-top:36px;
+    padding-bottom:36px;
 }
 
 #header.sticky-header:not(.static-sticky) #header-wrap {
@@ -140,6 +140,10 @@ section h2 {
     font-size:48px;
     margin-bottom:20px;
 }
+.device-md #slide-1 h2 {
+    font-size:36px;
+}
+
 #slide-3 h1 {
     color:#768E44;
     margin-bottom:0px;
@@ -165,6 +169,10 @@ section h2 {
 #slide-1 > div > div > p:nth-child(5) {
     margin-bottom:20px;
 }
+.device-md #slide-1 .slider-caption.slide-caption-right {
+    margin-right:-5%;
+}
+
 #slide-2 .slider-caption.slider-caption-right {
     margin-top:-50px;
 }
@@ -183,6 +191,20 @@ section h2 {
 }
 .star-wrap {
     margin-bottom:20px;
+}
+
+.device-md #slide-1 > div > div > p.tright.t700 {
+    margin-bottom:10px !important;
+}
+.device-md #slide-1 > div > div > p:nth-child(3) {
+    text-align:right !important;
+}
+.device-md #slide-1 {
+    background-position-x:10%;
+}
+.device-md #slide-1 .slider-caption.slider-caption-right {
+    margin-right:-2%;
+    top:125px !important;
 }
 
 /** PHONE SLUG **/
@@ -953,4 +975,14 @@ div.modal-body > div.img-wrap {
 }
 .form-control {
     font-size:16px;
+}
+
+/** EDITS **/
+
+#header.full-header #logo {
+    padding-right:20px;
+}
+
+body.stretched #header.full-header.sticky-header .container {
+    border-bottom:5px solid #DC9B30;
 }
