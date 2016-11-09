@@ -985,3 +985,6 @@ div.modal-body > div.img-wrap {
 body.stretched #header.full-header.sticky-header .container {
     border-bottom:5px solid #DC9B30;
 }
+#patient-reviews .owl-carousel .owl-dots, .owl-carousel .owl-nav {
+    display:none;
+}
